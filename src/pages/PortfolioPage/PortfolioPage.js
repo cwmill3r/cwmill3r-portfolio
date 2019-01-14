@@ -7,6 +7,7 @@ const renderItems = () => {
   return portfolioItems.map((item, i) => {
     return (
       <PortfolioItem
+        className="portfolio__items__links"
         key={i}
         title={item.title}
         description={item.description}
