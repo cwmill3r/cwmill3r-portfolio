@@ -5,7 +5,7 @@ export default [
       'This is the portfolio you are looking at! Built with React and SASS.',
     icon: ['fab', 'react'],
     linkTitle: 'Github',
-    link: 'https://github.com/cwmill3r/cwmill3r'
+    link: 'https://github.com/cwmill3r/cwmill3r-portfolio'
   },
   {
     title: 'designer-portfolio',
@@ -20,6 +20,6 @@ export default [
     description: 'Udemy course by Stephen Grider',
     icon: ['fab', 'react'],
     linkTitle: 'Github',
-    link: 'https://github.com/cwmill3r/react-redux'
+    link: 'https://github.com/cwmill3r/reactredux'
   }
 ];
