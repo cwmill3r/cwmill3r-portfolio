@@ -4,6 +4,10 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import LandingPage from './pages/LandingPage/LandingPage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import PortfolioPage from './pages/PortfolioPage/PortfolioPage';
+import * as Scroll from 'react-scroll';
+import { Element } from 'react-scroll';
+
+// add the fab prefix for Font Awesome Icons
 library.add(fab);
 
 class App extends React.Component {
@@ -11,8 +15,12 @@ class App extends React.Component {
     return (
       <div className="app-container">
         <LandingPage />
-        <AboutPage />
-        <PortfolioPage />
+        <Element name="aboutPage" className="element">
+          <AboutPage />
+        </Element>
+        <Element name="portfolioPage" className="element">
+          <PortfolioPage />
+        </Element>
       </div>
     );
   }

@@ -14,19 +14,13 @@ nav {
     height: 4rem;
   }
 
-  .magic-wand {
+  .logo {
     cursor: pointer;
     justify-self: flex-start;
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    .magic-text {
-      text-align: center;
-      font-size: 0.5rem;
-      padding-top: 0.25rem;
-    }
 
     &.bounce-xy {
       animation: bounce-xy 2s infinite;
