@@ -4,7 +4,6 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import LandingPage from './pages/LandingPage/LandingPage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import PortfolioPage from './pages/PortfolioPage/PortfolioPage';
-import * as Scroll from 'react-scroll';
 import { Element } from 'react-scroll';
 
 // add the fab prefix for Font Awesome Icons

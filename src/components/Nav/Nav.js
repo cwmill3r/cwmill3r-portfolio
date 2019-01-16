@@ -1,25 +1,9 @@
 import './Nav.scss';
 import React from 'react';
-import * as Scroll from 'react-scroll';
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller
-} from 'react-scroll';
+import { animateScroll as scroll, scroller } from 'react-scroll';
 
-const scrollToPortfolioPage = () => {
-  scroller.scrollTo('portfolioPage', {
-    duration: 1500,
-    delay: 100,
-    smooth: true
-  });
-};
-
-const scrollToAboutPage = () => {
-  scroller.scrollTo('aboutPage', {
+const scrollTo = elementName => {
+  scroller.scrollTo(elementName, {
     duration: 1500,
     delay: 100,
     smooth: true
@@ -33,10 +17,13 @@ const Nav = () => {
         :)
       </div>
       <div className="menu">
-        <div onClick={() => scrollToAboutPage()} className="menu__item active">
+        <div
+          onClick={() => scrollTo('aboutPage')}
+          className="menu__item active"
+        >
           About
         </div>
-        <div onClick={() => scrollToPortfolioPage()} className="menu__item">
+        <div onClick={() => scrollTo('portfolioPage')} className="menu__item">
           Portfolio
         </div>
       </div>
