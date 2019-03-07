@@ -10,9 +10,7 @@ const LandingPage = () => {
       <main>
         <div className="intro-wrapper">
           <div className="intro-name">Hello, I'm Chris Miller</div>
-          <div className="tagline">
-            Junior Dev | Shih Tzu l0v3r | Leaf Village Shinobi
-          </div>
+          <div className="tagline">Junior Dev | Shih Tzu l0v3r</div>
           <SocialIcons />
         </div>
       </main>

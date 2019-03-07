@@ -16,6 +16,14 @@ export default [
     link: 'https://github.com/cwmill3r/paigebachman'
   },
   {
+    title: 'who sampled?',
+    description:
+      'A hip hop sample quiz game I did in my CIS 440 Capstone class at ASU',
+    icon: ['fab', 'js'],
+    linkTitle: 'Github',
+    link: 'https://github.com/cwmill3r/who-sampled'
+  },
+  {
     title: 'react-redux',
     description: 'Udemy course by Stephen Grider',
     icon: ['fab', 'react'],
